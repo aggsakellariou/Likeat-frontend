@@ -56,6 +56,7 @@ html, body {
   bottom: 0;
   width: 100%;
   margin-top: 50px;
+  /* font-size: 16px; */
 }
 
 .footer-content {
@@ -69,6 +70,7 @@ html, body {
   top: 10px;
   right: 360px;
 }
+
 .close-btn-review {
   position: absolute;
   top: 25px;
@@ -80,7 +82,7 @@ html, body {
   border-bottom: none;
 }
 
-.custom-table th
+.custom-table th,
 .custom-table td {
   border: 1px solid #767879;
 }
@@ -89,11 +91,12 @@ html, body {
 .card-hover {
   transition: transform 0.3s ease-in-out;
 }
+
 .card-hover:hover {
   transform: scale(1.02);
 }
 
-/* map*/
+/* map */
 .style-field {
   margin-top: 1rem;
 }
@@ -138,6 +141,7 @@ html, body {
 .custom-container .filter-section {
   text-align: left;
 }
+
 .custom-container .filter-section h6 {
   margin-top: 1rem;
 }
@@ -146,29 +150,7 @@ html, body {
   margin-bottom: 0.5rem;
 }
 
-/* propagation */
-.pagination-dark .page-link {
-  background-color: #fff;
-  color: #343a40;
-  border: 1px solid #343a40;
-}
-
-.pagination-dark .page-link:hover {
-  background-color: #495057;
-  color: #fff;
-  border: 1px solid #495057;
-}
-
-.pagination-dark .page-item.active .page-link {
-  background-color: #343a40;
-  border: 1px solid #343a40;
-}
-
-.pagination-dark .page-link:focus {
-  box-shadow: none;
-}
-
-/* */
+/* container */
 .app-container {
   display: flex;
   flex-direction: column;
@@ -188,4 +170,23 @@ html, body {
   color: white;
   padding: 1rem 0;
   margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .Auth-form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .close-btn {
+    right: 5%;
+  }
+
+  .close-btn-review {
+    right: 10%;
+  }
+
+  .footer {
+    font-size: 14px;
+  }
 }

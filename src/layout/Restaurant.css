@@ -18,10 +18,35 @@
   font-size: 1rem;
 }
 
-/* New CSS class for carousel images */
+/* Carousel Images */
 .carousel-image {
   width: 100%;
   height: 350px;
   object-fit: contain;
   background-color: #e4e6e8;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-title.display-4 {
+    font-size: 2rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .list-group-item {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .carousel-image {
+    height: 250px;
+    object-fit: contain;
+  }
 }

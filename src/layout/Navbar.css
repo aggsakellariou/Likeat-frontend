@@ -116,3 +116,40 @@
   width: 175px;
   height: 45px;
 }
+
+/* Mobile Navbar Adjustments */
+@media (max-width: 767px) {
+  .offcanvas {
+    background-color: #e4e6e8 !important;
+    color: black;
+  }
+
+  .navbar-nav .nav-link {
+    color: black !important;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+  }
+
+  .navbar-nav .active {
+    color: #fff !important;
+  }
+
+  body {
+    margin-top: 80px;
+  }
+
+  .navbar-option.logout {
+    background-color: #e4e6e8;
+  }
+  
+  .navbar-option.logout .navbar-span {
+    color: rgb(136, 6, 6);
+  }
+  
+  .navbar-option.logout .navbar-btn:hover {
+    background-color: rgb(136, 6, 6);;
+    color: white;
+  }
+}
