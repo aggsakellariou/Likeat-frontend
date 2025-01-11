@@ -22,7 +22,7 @@ const SignInUp = () => {
     <>
       <button className="navbar-input" onClick={handleShow}>
         <div className="navbar-btn">
-          <span className="navbar-span">Sign In/Up</span>
+          <span className="navbar-span">Login</span>
         </div>
       </button>
       <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>

@@ -69,11 +69,11 @@ const Register = ({ changeAuthMode, setShow }) => {
 
   return (
     <Form noValidate validated={validated} onSubmit={handleRegister}>
-        <h3 className="Auth-form-title">Sign Up</h3>
+        <h3 className="Auth-form-title">Register</h3>
         <div className="text-center">
             Already registered?{" "}
             <span className="link-primary" onClick={changeAuthMode} style={{ cursor: 'pointer' }}>
-                Sign In
+                Login
             </span>
         </div>
         <div className="mb-3"></div>
